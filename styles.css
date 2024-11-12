@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial;
+    background-color: #000000;
+}
+
+header {
+    background-color: #6563cc;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+    height: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+nav {
+    background-color: #5cb4c3;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+    height: 8rem;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+main {
+    display: grid;
+    column-gap: 2rem;
+    margin: 2rem 1rem 0rem 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "section section aside"
+        "article article aside";
+}
+
+section {
+    grid-area: section;
+    background-color: #f2d86c;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+    height: 9rem;
+    margin-bottom: 2rem;
+}
+
+article {
+    grid-area: article;
+    background-color: #e78a6e;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+    height: 9rem;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+    height: 20rem;
+}
+
+footer {
+    background-color: #6563cc;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+    height: 10rem;
+    margin: 0 1rem 2rem 1rem;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: larger;
+}
